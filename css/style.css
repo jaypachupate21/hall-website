@@ -1,0 +1,291 @@
+h2 {
+    text-align: center;
+}
+
+
+.left {
+    display: flex;
+    gap: 18px;
+    margin-right: auto;
+}
+
+/* .right {} */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.bar {
+    display: flex;
+    gap: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.map-container {
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    /* Centers the map horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+
+/* form 2 */
+/* Import Google Fonts */
+
+
+
+/* Universal box-sizing reset */
+
+
+/* Basic styling for html and body */
+
+
+/* Form styling */
+/* form input,
+textarea {
+    margin: 10px;
+} */
+
+
+
+form {
+    width: 302px;
+    padding-left: 30%;
+}
+
+input {
+    padding: 5px;
+    margin: 15px;
+}
+
+textarea {
+    margin: 4px;
+    width: 190px;
+    height: auto;
+    resize: none;
+}
+
+form label {
+    text-align: center;
+    font-family: Alumni Sans Pinstripe, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.form-container {
+    width: 700px;
+    height: 400px;
+    margin: 100px auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#input-submit {
+    text-align: center;
+    margin-left: 100px;
+    background-color: #000;
+    color: white;
+}
+
+#input-submit:hover {
+    color: red;
+}
+
+/* 360 */
+
+
+
+/* gallery */
+
+
+
+
+
+/* new footer */
+
+
+
+
+.footer {
+    background-color: #000;
+    padding: 40px 20px;
+    color: #d4b585;
+    text-align: center;
+    width: 100%;
+}
+
+.footer .logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer .logo span {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+/* Horizontal line below logo */
+.footer .logo::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #d4b585;
+    margin: 10px auto;
+}
+
+.footer-social-icons a {
+    margin: 0 10px;
+    color: #d4b585;
+    font-size: 24px;
+}
+
+.footer-social-icons a:hover {
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d4b585;
+}
+
+.footer-section {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-section ul li a {
+    color: #d4b585;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* Vertical divider line between sections */
+.footer-section:not(:last-child) {
+    border-right: 1px solid #d4b585;
+    padding-right: 20px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #d4b585;
+}
+
+
+
+
+
+
+
+
+
+/* events */
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 48px;
+    color: #6d6b6b;
+    margin-bottom: 15px;
+}
+
+
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background-color: #a63b3b;
+    margin: 10px auto;
+}
+
+.description {
+    font-size: 14px;
+    color: #6d6b6b;
+    line-height: 1.6;
+}
+
+
+
+/* amentities */
+.amenities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
